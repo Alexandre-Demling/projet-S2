@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import netlify from '@astrojs/netlify'; // ✅ nouvelle syntaxe
 
 export default defineConfig({
-  integrations: [tailwind()],
-  output: 'hybrid' // Changer de 'static' à 'hybrid'
+  output: 'server', // ✅ accepté en Astro 5
+  adapter: netlify(), // ✅ nouvelle version de l’adapter
+  integrations: [tailwind()]
 });
