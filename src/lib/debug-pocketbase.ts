@@ -1,6 +1,6 @@
 import PocketBase from 'pocketbase';
 
-const pb = new PocketBase('http://127.0.0.1:8090');
+const pb = new PocketBase("https://pocketbaseprojet.alexandre-demling.fr:443");
 
 // Script de diagnostic pour PocketBase
 export async function diagnosePocketBase() {

@@ -1,7 +1,7 @@
 import PocketBase from "pocketbase"
 
 // Assurez-vous que l'URL correspond à votre instance PocketBase
-const pb = new PocketBase("http://127.0.0.1:8090") // ou http://localhost:8090
+const pb = new PocketBase("https://pocketbaseprojet.alexandre-demling.fr:443")
 
 export interface Event {
   id: string
