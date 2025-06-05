@@ -1,0 +1,39 @@
+/* empty css                                    */
+import { e as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead } from '../../chunks/astro/server_YPkzwji1.mjs';
+import 'kleur/colors';
+import { $ as $$Layout } from '../../chunks/Layout_BPmbLR4T.mjs';
+import { $ as $$HeaderPublic } from '../../chunks/HeaderPublic_S0hRoKZ2.mjs';
+import { $ as $$FooterPublic } from '../../chunks/FooterPublic_C0alk5Js.mjs';
+export { renderers } from '../../renderers.mjs';
+
+const $$Faq = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "FAQ | Orbite" }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "HeaderPublic", $$HeaderPublic, {})} ${maybeRenderHead()}<div class="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white"> <div class="max-w-4xl mx-auto px-4 py-16"> <h1 class="text-4xl font-bold mb-8">Questions fréquemment posées</h1> <div class="space-y-6"> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Qu'est-ce qu'Orbite ?</h3> <p class="text-gray-200">
+Orbite est une plateforme créée par des étudiants, pour des étudiants. Elle permet de découvrir et créer des événements étudiants, de rencontrer d'autres étudiants et de participer à la vie universitaire de votre région.
+</p> </div> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Comment créer un compte étudiant ?</h3> <p class="text-gray-200">
+Pour rejoindre Orbite, vous devez être étudiant. Inscrivez-vous avec votre adresse e-mail universitaire, vérifiez votre statut étudiant, et commencez à explorer les événements près de chez vous !
+</p> </div> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Comment fonctionne le système de points ?</h3> <p class="text-gray-200">
+Gagnez des points en participant aux événements, en créant des événements populaires, et en étant actif sur la plateforme. À 200 points, débloquez des contours de profil exclusifs ! Plus vous participez, plus vous débloquez de récompenses.
+</p> </div> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Comment créer un événement ?</h3> <p class="text-gray-200">
+Cliquez sur "Créer un événement" dans votre dashboard, remplissez les détails (lieu, date, description), et publiez ! Votre événement apparaîtra sur la carte interactive pour que d'autres étudiants puissent le découvrir.
+</p> </div> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Comment utiliser la carte interactive ?</h3> <p class="text-gray-200">
+La carte vous montre tous les événements étudiants près de votre localisation. Filtrez par type d'événement, distance, ou date pour trouver exactement ce qui vous intéresse !
+</p> </div> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Puis-je modifier mon profil ?</h3> <p class="text-gray-200">
+Bien sûr ! Personnalisez votre profil avec une photo, et une orbite.
+</p> </div> <div class="bg-black/30 rounded-lg p-6 border border-purple-800/30"> <h3 class="text-xl font-semibold mb-3 text-purple-300">Orbite est-il gratuit pour les étudiants ?</h3> <p class="text-gray-200">
+Oui ! Orbite est entièrement gratuit pour tous les étudiants. Notre mission est de connecter la communauté étudiante sans barrières financières.
+</p> </div> </div> </div> </div> ${renderComponent($$result2, "FooterPublic", $$FooterPublic, {})} ` })}`;
+}, "C:/Users/alexa/Documents/orbite-astro/src/pages/legal/faq.astro", void 0);
+
+const $$file = "C:/Users/alexa/Documents/orbite-astro/src/pages/legal/faq.astro";
+const $$url = "/legal/faq";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Faq,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };
