@@ -1,7 +1,7 @@
 /* empty css                                 */
 import { e as createComponent, r as renderTemplate, l as defineScriptVars, n as renderScript, k as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_YPkzwji1.mjs';
 import 'kleur/colors';
-import { $ as $$Layout } from '../chunks/Layout_GrwkG2yk.mjs';
+import { $ as $$Layout } from '../chunks/Layout_CIg22j6S.mjs';
 import { $ as $$HeaderDashboard } from '../chunks/HeaderDashboard_L5qrl61F.mjs';
 import { a as getAllEvents } from '../chunks/pocketbase_CBsTR6xY.mjs';
 /* empty css                               */

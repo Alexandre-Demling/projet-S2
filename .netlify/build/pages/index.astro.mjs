@@ -2,7 +2,7 @@
 import { e as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead } from '../chunks/astro/server_YPkzwji1.mjs';
 import 'kleur/colors';
 /* empty css                                 */
-import { $ as $$Layout } from '../chunks/Layout_GrwkG2yk.mjs';
+import { $ as $$Layout } from '../chunks/Layout_CIg22j6S.mjs';
 import { $ as $$HeaderPublic } from '../chunks/HeaderPublic_S0hRoKZ2.mjs';
 import { $ as $$FooterPublic } from '../chunks/FooterPublic_C0alk5Js.mjs';
 /* empty css                                 */
